@@ -2,10 +2,10 @@
 #include <iostream>
 #include "ASpell.hpp"
 
- ATarget::ATarget( const std::string& type ) : _type(type)
- {
+ATarget::ATarget( const std::string& type ) : _type(type)
+{
 
- }
+}
     
 ATarget::ATarget( const ATarget& copy )
 {
